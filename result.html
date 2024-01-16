@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student form</title>
+</head>
+<body>
+    
+    
+      
+        <script>
+          
+          var studentName = sessionStorage.getItem("studentName") || "Not available";
+          var fatherName = sessionStorage.getItem("fatherName") || "Not available";
+          var rollNo = sessionStorage.getItem("rollNo") || "Not available";
+          var classValue = sessionStorage.getItem("class") || "Not available";
+          var address = sessionStorage.getItem("address") || "Not available";
+          var pincode = sessionStorage.getItem("pincode") || "Not available";
+      
+          
+          document.write("<p>Student Name: " + studentName + "</p>");
+          document.write("<p>Father Name: " + fatherName + "</p>");
+          document.write("<p>Roll No.: " + rollNo + "</p>");
+          document.write("<p>Class: " + classValue + "</p>");
+          document.write("<p>Address: " + address + "</p>");
+          document.write("<p>Pincode: " + pincode + "</p>");
+        </script>
+      </body>
+      <body>
+        <h1><center><u>STUDENTS-MARKS</u></center></h1>
+        <div class="marks">
+        <table table border="3px">
+             
+           <tr class="student">
+                <th>SUBJECT</th>
+                    <th>MARKS</th>
+                    <th>MARKS OBTAINED</th>
+    
+               
+             <tr>
+                
+                <td>Hindi</td>
+                <td>100</td>
+                <td>70</td>
+                
+                </tr>
+              <tr>
+                <td>English</td>
+                <td>100</td>
+                <td>78</td>
+                
+                </tr>
+               <tr>
+                <td>Math</td>
+                <td>100</td>
+                <td>90</td>
+            
+                </tr>
+                <tr>
+                    <td>Sceince</td>
+                    <td>100</td>
+                    <td>95</td>
+                
+                    </tr>
+                    <tr>
+                        <td>computer</td>
+                        <td>100</td>
+                        <td>89</td>
+                    
+                        </tr>
+                        
+                        </tr>
+               </table>
+              </div>
+    
+        
+    
+    
+      
+</body>
+</html>
